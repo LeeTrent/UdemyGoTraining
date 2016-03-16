@@ -13,6 +13,7 @@ func main() {
     fmt.Scan(&largeNumber)
     
     if smallNumber != 0 {
+        fmt.Println(largeNumber, "/", smallNumber, "=", (largeNumber / smallNumber ) )
         fmt.Println("Remainder is", largeNumber % smallNumber)
     } else {
         fmt.Println("Cannot divide by zero")
